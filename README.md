@@ -18,6 +18,7 @@ The server generates a data file based on the user's request, and the client dow
    brew install telnet
    ```
 All other dependencies, including FTP (`ftplib`), TCP (`socket`), and Telnet (`telnetlib`), are part of Python's standard library and do not require additional installation.
+Linux and windows DONT need any kind of installations, as long you have a python version of 3.10 or higher.
 
 ---
 
@@ -43,7 +44,7 @@ All other dependencies, including FTP (`ftplib`), TCP (`socket`), and Telnet (`t
 To run the client-side code, the user must provide the following parameters:
 
 ```bash
-usage: client.py [-h] --source {L8,L9} --startdate STARTDATE --enddate ENDDATE [--dd DD] [--distance DISTANCE] [--cloudcover CLOUDCOVER] [--buoyid BUOYID [BUOYID ...]] [--outfile OUTFILE]
+usage: python3 client.py [-h] --source {L8,L9} --startdate STARTDATE --enddate ENDDATE [--dd DD] [--distance DISTANCE] [--cloudcover CLOUDCOVER] [--buoyid BUOYID [BUOYID ...]] [--outfile OUTFILE]
 ```
 
 - **--source**: The data source. Possible values are `L8` (Landsat 8) and `L9` (Landsat 9).
