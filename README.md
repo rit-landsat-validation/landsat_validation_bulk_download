@@ -18,7 +18,7 @@ The server generates a data file based on the user's request, and the client dow
    brew install telnet
    ```
 All other dependencies, including FTP (`ftplib`), TCP (`socket`), and Telnet (`telnetlib`), are part of Python's standard library and do not require additional installation.
-Linux and windows DONT need any kind of installations, as long you have a python version of 3.10 or higher.
+Linux and windows don't need any installations, as long you have a Python version of 3.10 or higher.
 
 ---
 
