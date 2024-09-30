@@ -84,12 +84,4 @@ In this example, the user requests data from the `L8` (Landsat 8) source, with a
 
 ---
 
-## Running the Server-Side Code
-
-1. Ensure that the server machine has Python 3.10 or higher installed.
-2. Start the server:
-   ```bash
-   python server.py
-   ```
-
 The server will listen for incoming TCP connections from the client. Once a client connects and sends data parameters, the server will generate a file and handle the FTP connection for file download.
