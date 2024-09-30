@@ -24,16 +24,9 @@ Linux and windows DONT need any kind of installations, as long you have a python
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
-   ```
+1. Clone the repository.
 
-2. Ensure that you are using Python 3.10 or higher:
-   ```bash
-   python --version
-   ```
+2. Ensure that you are using Python 3.10 or higher.
 
 3. The code is now ready to be used for both client-side and server-side operations.
 
