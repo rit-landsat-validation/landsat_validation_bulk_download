@@ -28,7 +28,7 @@ Linux and windows don't need any installations, as long you have a Python versio
 
 2. Ensure that you are using Python 3.10 or higher.
 
-3. The code is now ready to be used for both client-side and server-side operations.
+3. The code is now ready to be used.
 
 ---
 
